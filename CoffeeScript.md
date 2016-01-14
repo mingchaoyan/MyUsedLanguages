@@ -131,8 +131,13 @@ cube   = (x) -> square(x) * x
 
 ## 模块化
 
-### 示例
+### 导出
 
+```coffeescript
+module.exports = xxx
+```
+
+### 导入
 ```coffeescript
 require(some_module)
 ```

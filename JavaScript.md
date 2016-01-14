@@ -1,5 +1,25 @@
 # JavaScript
 
+##hello,world
+* 浏览器版本
+
+```javascript
+<!DOCTYPE HTML>
+	<html>
+		<body>
+			<script>
+				alert('Hello, World!')
+			</script>
+		</body>
+	</html>
+```
+
+* Node.js版本
+
+```javascript
+console.log("Hello World");
+```
+
 ## 数据类型
 ##### 基本类型（primitive types, typeof结果）
 
