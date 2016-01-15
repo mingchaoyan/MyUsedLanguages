@@ -2,23 +2,19 @@
 
 ## hello,world
 ```coffeescript
-
+console.log "Hello World"
 ```
 ## 历史
 * 发行 2009
 * 作者 Jeremy Ashkenas
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/pic/CoffeeScript-Jeremy-Ashkenas-2009.jpg)
 
-## 编程范型
+## 编程范型 （同JavaScript）
 
-* 面向对象（基于原型）
-* 函数式
-* 指令式
-* 脚本语言
 
-## 语言特性
+## 语言特性 (同JavaScript)
 
-## 数据类型
+## 数据类型 (同JavaScript)
 ##### 基本类型（primitive types, typeof结果）
 
 1. 布尔

@@ -19,6 +19,19 @@
 ```javascript
 console.log("Hello World");
 ```
+## 历史
+* 发行 1995
+* 作者 Brendan Eich
+* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/pic/Brendan_Eich-JavaScript-1995.jpg)
+
+## 编程范型
+
+* 面向对象（基于原型）
+* 函数式
+* 指令式
+* 脚本语言
+
+## 语言特性
 
 ## 数据类型
 ##### 基本类型（primitive types, typeof结果）
@@ -32,3 +45,13 @@ console.log("Hello World");
 
 ##### 复合类型
 7. 数组
+
+## 操作符/关键字
+
+## 流程控制
+
+## 函数
+
+## 模块化
+
+## 特殊语法现象
