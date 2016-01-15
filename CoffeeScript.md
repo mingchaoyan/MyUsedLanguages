@@ -7,7 +7,7 @@
 ## 历史
 * 发行 2009
 * 作者 Jeremy Ashkenas
-* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/pic/CoffeeScript-Jeremy Ashkenas-2009.jpg)
+* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/pic/CoffeeScript-Jeremy-Ashkenas-2009.jpg)
 
 ## 编程范型
 
