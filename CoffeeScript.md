@@ -8,6 +8,16 @@
 * 发行 2009
 * 作者 Jeremy Ashkenas
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/pic/CoffeeScript-Jeremy Ashkenas-2009.jpg)
+
+## 编程范型
+
+* 面向对象（基于原型）
+* 函数式
+* 指令式
+* 脚本语言
+
+## 语言特性
+
 ## 数据类型
 ##### 基本类型（primitive types, typeof结果）
 
