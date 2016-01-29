@@ -34,6 +34,8 @@ console.log("Hello World");
 ## 语言特性
 
 ## 数据类型
+* 动态弱类型
+
 ##### 基本类型（primitive types, typeof结果）
 
 1. 布尔
