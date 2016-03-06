@@ -1,6 +1,6 @@
 # JavaScript
 
-##hello,world
+## hello,world
 * 浏览器版本
 
 ```javascript
