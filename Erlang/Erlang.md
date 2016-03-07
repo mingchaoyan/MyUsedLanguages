@@ -11,7 +11,7 @@ hello_world() ->
 ## 历史
 * 发行:1987
 * 作者:乔·阿姆斯特朗，麦可·威廉， 罗伯·维丁 
-* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/pic/Erlang-1987.jpg)
+* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/Erlang/Erlang-1987.jpg)
 
 ## 编程范型
 * 函数式

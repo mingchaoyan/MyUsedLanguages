@@ -22,7 +22,7 @@ console.log("Hello World");
 ## 历史
 * 发行 1995
 * 作者 Brendan Eich
-* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/pic/Brendan_Eich-JavaScript-1995.jpg)
+* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/JavaScript/Brendan_Eich-JavaScript-1995.jpg)
 
 ## 编程范型
 
