@@ -12,10 +12,11 @@ hello_world() ->
 * 发行:1987
 * 作者:乔·阿姆斯特朗，麦可·威廉， 罗伯·维丁 
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/Erlang/Erlang-1987.jpg)
+* 设计初衷 电信设备制造商爱立信私有软件，创造一个种可以应付大规模开发活动的程序设计语言和运行环境
 
 ## 编程范型
 * 函数式
-* 并行
+* 并发
 
 ## 语言特性
 * 并发
