@@ -37,6 +37,25 @@ ruby hello.rb
   
 ## 流程控制
 ### 分支
+```ruby
+kind =
+  case year
+  when 1850..1889 then 'Blues'
+  when 1890..1909 then 'Ragtime'
+  when 1910..1929 then 'New Orleans Jazz'
+  when 1930..1939 then 'Swing'
+  when 1940..1950 then 'Bebop'
+  else 'Jazz'
+  end
+```
+```ruby
+result =
+  if some_cond
+    calc_something
+  else
+    calc_something_else
+  end
+```
 ### 循环
 
 ## 函数
