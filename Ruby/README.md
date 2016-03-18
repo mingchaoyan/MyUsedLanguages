@@ -37,6 +37,14 @@ ruby hello.rb
   
 ## 流程控制
 ### 分支
+
+#### 单行形式
+```ruby
+puts "hello, world" if x == 42
+puts "hello, world" unless x == 42
+```
+
+#### 块形式
 ```ruby
 kind =
   case year
