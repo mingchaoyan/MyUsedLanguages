@@ -42,6 +42,24 @@ ruby hello.rb
 ### 散列表
 * key-value
 
+## 面向对象
+```ruby
+class Mammal
+  def breathe
+    puts "inhale and exhale"
+  end
+end
+
+class Cat < Mammal
+  def speak
+    puts "Meow"
+  end
+end
+
+paris = Cat.new
+paris.breathe
+paris.speak
+```
 ## 流程控制
 ### 分支
 * 除了nil和false，其他值都代表true
