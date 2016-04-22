@@ -16,6 +16,7 @@ console.log "Hello World"
 ## 语言特性 (同JavaScript)
 
 ## 数据类型 (同JavaScript)
+
 ##### 基本类型（primitive types, typeof结果）
 
 1. 布尔
@@ -50,6 +51,7 @@ console.log "Hello World"
 * do 用来直接调用跟在后边的函数, 并且传递需要的参数.
 
 ## 流程控制
+
 ###分支
 
 * if/else/then
@@ -95,7 +97,8 @@ switch day
 myArray = [1, 2, 3, 4, 5]
 for number in myArray
     number + 1
-# Output: 2, 3, 4, 5, 6
+
+Output: 2, 3, 4, 5, 6
 ```
 
 * 对象
@@ -109,12 +112,11 @@ myObject =
 for key, value of myObject
     key, "=", value
 
-# Output: name=Koen, city=Amsterdam, age=31
+Output: name=Koen, city=Amsterdam, age=31
 ```
 * 通用
 
 ```coffeescript
-# 摇篮曲
 num = 6
 lyrics = while num -= 1
   "#{num} little monkeys, jumping on the bed.
