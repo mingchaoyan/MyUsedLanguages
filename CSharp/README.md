@@ -1,4 +1,4 @@
-# C#
+# C♯
 
 ## hello, world
 ```cs
@@ -12,6 +12,9 @@ public class Hello
 ```
 
 ## 历史
+* 发行:2000
+* 作者:安德斯·海尔斯伯格
+* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Anders_Hejlsberg.jpg)
 * 设计初衷 微软为了对抗Java
 
 ## 黑科技
@@ -39,4 +42,6 @@ Object的别名
 6. virtual
 --
 * 子类可以不实现之，但如果实现就一定需要override关键字
-
+7. 范型类
+--
+* 相比使用object它类型安全，且没有装箱和拆箱的消耗
