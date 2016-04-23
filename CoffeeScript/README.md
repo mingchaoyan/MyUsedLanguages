@@ -18,7 +18,6 @@ console.log "Hello World"
 ## 数据类型 (同JavaScript)
 
 ##### 基本类型（primitive types, typeof结果）
-
 1. 布尔
 2. undefined
 3. 数字
