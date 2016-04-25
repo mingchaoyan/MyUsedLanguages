@@ -1,6 +1,6 @@
 # C♯
 
-## hello, world
+## 0. hello, world
 ```cs
 public class Hello
 {
@@ -11,13 +11,44 @@ public class Hello
 }
 ```
 
-## 历史
+## 1. 历史
 * 发行:2000
 * 作者:安德斯·海尔斯伯格
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Anders_Hejlsberg.jpg)
 * 设计初衷 微软为了对抗Java
 
-## 黑科技
+## 2. 编程范型
+
+## 3. 语言特性
+
+## 4. 数据类型
+
+## 5. 操作符／表达式
+
+## 6. 流程控制
+
+### 6.1 分支
+
+#### 6.1.1 if-else
+
+#### 6.1.2 else-if
+
+#### 6.1.3 switch
+
+### 6.2 循环
+
+## 7. 函数／模块
+
+### 7.1 命名空间
+* 使用 . 运算符分隔
+* 使用 using xxx 可以在后面代码中省略类的命名空间
+* 运算符 :: 用于命名空间使用了别名的情况
+* global 命名空间是“根”命名空间, global::System 引用 System
+* C# 没有头文件，代码分不分多个文件完全是为了编辑的方便，反正编译器都是一次读进合并起来编译成二进制文件，然后类和函数的签名都在metadata里面
+
+## 8. 库相关
+
+## 9. 黑科技
 1. 分部类 partial 可把一个类分开实现
 ```
 * 所有分部都需要指定partial
