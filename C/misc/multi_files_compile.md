@@ -1,22 +1,25 @@
+# GCC 编译多个文件
+
+## 多个文件
+a.h
 ```C
 int return1();
 ```
 
-```C a.c
+a.c
+```C
 int return1()
 {
   return 1;
 }
 ```
 
+b.h
 ```C
 int return2();
 ```
 
-```C
-int return3();
-```
-
+b.c
 ```C
 int return2()
 {
@@ -24,6 +27,12 @@ int return2()
 }
 ```
 
+c.h
+```C
+int return3();
+```
+
+c.c
 ```C
 int return3()
 {
@@ -31,6 +40,7 @@ int return3()
 }
 ```
 
+main.c
 ```C
 #include "a.h"
 #include "b.h"
@@ -43,6 +53,7 @@ int main()
   printf("c:%d\n", return3());
 }
 ```
+
 ## 方法一 直接编译
 ```shell
 $ gcc a.c b.c c.c main.c -o out
