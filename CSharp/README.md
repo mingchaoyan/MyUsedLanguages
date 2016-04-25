@@ -1,6 +1,7 @@
 # C♯
 
 ## 0. hello, world
+Hello.cs
 ```cs
 public class Hello
 {
@@ -10,7 +11,12 @@ public class Hello
   }
 }
 ```
-
+OSX
+```shell
+$ mcs Hello.cs
+$ mono Hello.exe
+hello, world
+```
 ## 1. 历史
 * 发行:2000
 * 作者:安德斯·海尔斯伯格
@@ -22,6 +28,8 @@ public class Hello
 ## 3. 语言特性
 
 ## 4. 数据类型
+
+### 4.1 [委托](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/MISC/Delegate.md)
 
 ## 5. 操作符／表达式
 
@@ -54,13 +62,6 @@ public class Hello
 * 所有分部都需要指定partial
 * 各部分必须具有相同的可访问性
 * 基类，抽象，密封只需在任意部分声明
-```
-2. 委托
-```
-* 委托是一个类，定义了方法的类型，使方法可以当作另一个方法的参数来传递
-* 可以将多个方法绑定到同一个委托变量，当调用此变量的时候，依次调用所有绑定的方法
-* event关键字，声明来一个封装的委托类型变量
-* Action关键字，封装一个方法，改方法只有一个参数并不返回
 ```
 3. object
 ```

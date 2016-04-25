@@ -137,7 +137,7 @@ found:
 
 ### 7.2 多文件
 * 头文件中接口，C文件中实现
-* [编译多文件](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/C/misc/multi_files_compile.md)
+* [编译多文件](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/C/Misc/multi_files_compile.md)
 
 ## 8. 黑魔法
 0. 常量表达式的值在编译的时候确定
