@@ -101,6 +101,38 @@ switch(c) {
 
 ### 6.2 循环
 
+#### 6.2.1 while
+```C
+while(fahr <= upper) {
+    celsius = 5 * (fahr-32) / 9;
+    printf("%d\t%d\n", fahr, celsius);
+    fahr = fahr * step;
+}
+```
+
+#### 6.2.2 for
+```C
+for(n = 0; isdigit(s[i]); i++)
+    n = 10 * n + (s[i] - '0');
+```
+
+#### 6.2.3 do-while
+```C
+do {
+    s[i++] = n % 10 + '0';
+} while(n /= 10 > 0)
+```
+
+### 6.3 跳转
+```C
+for(i = 0; i < n; i++)
+    for(j = 0; j < m ; j++)
+        if (a[i] == b[j])
+            goto found;
+found:
+    printf("found");
+```
+
 ## 7. 函数／模块
 
 ## 8. 黑魔法
