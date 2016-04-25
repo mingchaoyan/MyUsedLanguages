@@ -1,8 +1,20 @@
-```C 
+```C
+int return1();
+```
+
+```C a.c
 int return1()
 {
   return 1;
 }
+```
+
+```C
+int return2();
+```
+
+```C
+int return3();
 ```
 
 ```C
@@ -34,6 +46,31 @@ int main()
 ## 方法一 直接编译
 ```shell
 $ gcc a.c b.c c.c main.c -o out
+$ ./out
+a:1
+b:2
+c:3
+```
+
+## 方法二 动态共享库
+```shell
+$ gcc -shared -fPIC a.c -o a.so
+$ gcc -shared -fPIC b.c -o b.so
+$ gcc -shared -fPIC c.c -o c.so
+$ gcc main.c -L . a.so b.so c.so -o out
+$ ./out
+a:1
+b:2
+c:3
+```
+
+## 方法三 静态库
+```shell
+$ gcc -c a.c
+$ gcc -c b.c
+$ gcc -c c.c
+$ ar -rc liballfiles.a a.o b.o c.o
+$ gcc main.c -L . liballfiles -o out
 $ ./out
 a:1
 b:2
