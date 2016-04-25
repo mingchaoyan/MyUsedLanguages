@@ -29,7 +29,7 @@ hello, world
 
 ## 4. 数据类型
 
-### 4.1 [委托](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/MISC/Delegate.md)
+### 4.1 [委托](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Misc/Delegate.md)
 
 ## 5. 操作符／表达式
 
