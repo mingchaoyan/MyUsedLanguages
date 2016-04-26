@@ -45,6 +45,11 @@ hello, world
 
 ### 6.2 循环
 
+#### 6.2.1 foreach
+
+* [IEnumerator/IEnumerable](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Misc/IEnumerator_And_IEnumerable.md)
+* [yield](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Misc/Yield.md)
+
 ## 7. 函数／模块
 
 ### 7.1 命名空间
