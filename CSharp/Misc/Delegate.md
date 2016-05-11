@@ -40,3 +40,34 @@ public class TestDel
 ### 格式
 event 委托 委托变量
 
+## Action 委托
+
+### 定义
+不具参数，不具返回值的委托。可省略此类委托声明。
+
+### 例子
+```cs
+using System;
+
+public class Name {
+  private string _instanceName;
+  public Name(string name) {
+    this._instanceName = name;
+  }
+
+  public void Display() {
+    Console.WriteLine(this._instanceName);
+  }
+
+//  public delegate void ShowValue();
+
+  public class Test {
+    public static void Main() {
+      Name testName = new Name("mingchaoyan");
+//      ShowValue showMethod = testName.Display;
+      Action showMethod = testName.Display;
+      showMethod();
+    }
+  }
+}
+```
