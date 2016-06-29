@@ -9,7 +9,8 @@
 delegate 返回类型 委托名(参数列表)
 
 ### 例子
-```cs
+
+``` cs
 public class TestDel
 {
   // 声明一个委托
@@ -26,6 +27,35 @@ public class TestDel
 		Del handler = DelegeteMethod;
 		handler("hello, world");
 	}
+}
+```
+
+``` cs
+using System;
+
+namespace TestDelegate
+{
+	public delegate void GreetingDelegate(string name);
+    class MainClass
+    {
+		private static void EnglishGreeting(string name) {
+			Console.WriteLine("Morning, " + name);
+		}
+
+		private static void ChineseGreeting(string name) {
+			Console.WriteLine("早上好，" + name);
+		}
+
+		private static void GreetPeople(string name, GreetingDelegate MakeGreeting) {
+			MakeGreeting(name);
+		}
+
+        public static void Main(string[] args)
+        {
+			GreetPeople("mingchaoyan", EnglishGreeting);
+			GreetPeople("严明超", ChineseGreeting);
+        }
+    }
 }
 ```
 
