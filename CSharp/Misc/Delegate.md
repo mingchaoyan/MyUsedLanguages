@@ -73,7 +73,7 @@ event 委托 委托变量
 ## Action 委托
 
 ### 定义
-不具参数，不具返回值的委托。可省略此类委托声明。
+不具参数(或者使用范型Action可带参数)，不具返回值的委托。可省略此类委托声明。
 
 ### 例子
 ```cs
@@ -99,5 +99,41 @@ public class Name {
       showMethod();
     }
   }
+}
+```
+
+```
+using System;
+
+namespace TestAction
+{
+	class MainClass
+	{
+		public static void ChineseGreeting() {
+			Console.WriteLine("早上好！");
+		}
+
+		public static void ChineseGreeting2(string name) {
+			Console.WriteLine("早上好！" + name);
+		}
+
+		public static void EnglishGreeting() {
+			Console.WriteLine("morning!");
+		}
+
+		public static void GreetingPeople(Action m) {
+			m();
+		}
+
+		public static void GreetingPeople(Action<string> m, string name) {
+			m(name);
+		}
+
+		public static void Main(string[] args) {
+			GreetingPeople(EnglishGreeting);
+			GreetingPeople(ChineseGreeting);
+			GreetingPeople(ChineseGreeting2, "明超");
+		}
+	}
 }
 ```
