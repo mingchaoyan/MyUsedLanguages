@@ -137,3 +137,29 @@ namespace TestAction
 	}
 }
 ```
+
+## Func 委托
+
+### 定义
+可带参数，可返回值的委托
+
+### 例子
+```
+using System;
+
+namespace TestFunc
+{
+	class MainClass
+	{
+		public static string Upper(string str) {
+			return str.ToUpper();
+		}
+
+		public static void Main(string[] args)
+		{
+			Func<string, string> U = Upper;
+			Console.WriteLine(U("abc"));
+		}
+	}
+}
+```
