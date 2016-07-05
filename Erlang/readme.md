@@ -1,6 +1,6 @@
 # Erlang
 
-## hello, world
+## 0. hello, world
 ```erlang
 -module(hello).
 -export([hello_world/0]).
@@ -8,24 +8,24 @@ hello_world() ->
     io:fwrite("hello, world\n")
 ```
 
-## 历史
+## 1. 历史
 * 发行:1987
 * 作者:乔·阿姆斯特朗，麦可·威廉， 罗伯·维丁 
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/Erlang/Erlang-1987.jpg)
 * 设计初衷 电信设备制造商爱立信私有软件，创造一个种可以应付大规模开发活动的程序设计语言和运行环境
 
-## 编程范型
+## 2. 编程范型
 * 函数式
 * 并发
 
-## 语言特性
+## 3. 语言特性
 * 并发
 * 无锁/函数式
 * 消息通信
 * 容错/热更新
 
 
-## 数据类型
+## 4. 数据类型
 * 动态强类型
 
 ##### 基本类型
@@ -42,9 +42,9 @@ hello_world() ->
 9. list/string
 10. tuple/record
 
-## 运算操作
+## 5. 运算操作
 
-## 流程控制
+## 6. 流程控制
 
 * 分支
 
@@ -57,5 +57,5 @@ hello_world() ->
 
 ```
 
-## 函数／模块
+## 7. 函数／模块
 
