@@ -18,5 +18,23 @@ echo "hello, world"
 
 ## 6. 流程控制
 
+### 6.1 分支
+#### 6.1.0 test 和 [ 逻辑判断
+```
+VAR=2
+test ${VAR} -gt 1
+echo $?
+
+[ ${VAR} -gt 3 ]
+echo $?
+```
+测试结果真为0，假为1(和C语言逻辑正好相反)
+
+#### 6.1.1 if/then/elif/else/fi
+
+#### 6.1.2 case/esac
+* 分支结尾必须是;;
+* 分支不需要使用 break 跳出
+
 ## 7. 函数／模块
 * 文件包含：``source`` 或者 ``.``
