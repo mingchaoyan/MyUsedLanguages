@@ -22,6 +22,7 @@ hello, world
 * 作者:安德斯·海尔斯伯格
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Anders_Hejlsberg.jpg)
 * 设计初衷 微软为了对抗Java
+* Unity 5.x 使用Mono2.6 相当于.NET 4 （C# 4.0）
 
 ## 2. 编程范型
 * 指令式
@@ -100,7 +101,17 @@ jaggedArray[0] = new int[4] {1, 2, 3, 4};
 #### 4.2.4 [委托](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Misc/Delegate.md)
 
 ## 5. 操作符／表达式
-
+### 5.1  ``??`` 
+```
+using System;
+public class Test{
+	public static void Main() {
+		int? x = null;
+		int y = x ?? -1;
+		Console.WriteLine(y);
+	}
+}
+```
 ## 6. 流程控制
 
 ### 6.1 分支
