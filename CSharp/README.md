@@ -101,7 +101,7 @@ jaggedArray[0] = new int[4] {1, 2, 3, 4};
 #### 4.2.4 [委托](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Misc/Delegate.md)
 
 ## 5. 操作符／表达式
-### 5.1  ``??`` 
+### 5.1  ``??``  null 合并运算符
 ```
 using System;
 public class Test{
