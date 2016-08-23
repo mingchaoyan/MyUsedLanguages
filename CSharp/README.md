@@ -176,8 +176,7 @@ Object的别名
 ```
 * 泛型类：相比使用object它类型安全，且没有装箱和拆箱的消耗
 ```
-8. ref out
-[out](Misc/Out.md)
+8. [ref out](Misc/Out.md)
 
 9. params 未定个数参数
 
