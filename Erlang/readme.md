@@ -40,6 +40,7 @@ hello_world() ->
 
 ##### 复合类型
 9. list/string
+* 以1开始
 10. tuple/record
 
 ## 5. 运算操作

@@ -89,6 +89,7 @@ System.Console.WriteLine(c); // "mingchao"
 #### 4.2.2 接口
 * 无字段
 #### 4.2.3 数组
+* 数组以0开始
 ```
 int[] array1 = new int[5];
 

@@ -27,6 +27,7 @@ console.log "Hello World"
 
 ##### 复合类型
 7. 数组
+* 从0开始
 
 ## 操作符/关键字
 
