@@ -60,5 +60,7 @@ console.log("Hello World");
 ## 函数
 
 ## 模块化
+### 包管理器 
+npm
 
 ## 特殊语法现象
