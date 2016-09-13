@@ -130,6 +130,9 @@ luarock
 ### 8.2 集成测试
 busted
 
+### 8.3 table pretty
+inspect
+
 ## 9. 黑魔法
 * 多值赋值，多值返回
 ```
