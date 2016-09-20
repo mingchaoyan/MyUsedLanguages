@@ -16,9 +16,9 @@ lua hello.lua
 
 ## 1. 历史
 * 发行 1993
-* 作者 Roberto Ierusalimschy 
-       Waldemar Celes
-       Luiz Henrique de Figueiredo
+* 作者 Roberto Ierusalimschy (巴西)
+       Waldemar Celes (巴西)
+       Luiz Henrique de Figueiredo (巴西)
 * ![](lua.jpg)
 * 设计初衷 成为一个很容易嵌入其它语言中使用的语言
 
