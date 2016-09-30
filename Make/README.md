@@ -1,12 +1,12 @@
 # Make
 
-## 1. 历史
+## 2. 历史
 * 发行 1977
 * 作者 斯图亚特·费尔德曼
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/Make/stuart_feldman.jpg)
 * 设计初衷 批量执行生成目标的命令，并且可以完成依赖关系的检查
 
-## 4. 变量
+## 5. 变量
 类似于C语言的宏，在取值时使用$(variant)
 ```
 objects = main.o kbd.o command.o display.o \
@@ -19,16 +19,16 @@ clean :
 * ``$<`` 所有依赖
 * ``$@`` 所有目标
 
-## 5. 操作符
+## 6. 操作符
 * ``=`` 赋值
 * ``:=`` 前面的变量不能使用后面的变量，只能使用前面已经定义好了的变量
 * ``?=`` 如果没有被定义过，那么变量就是赋值，如果先前已经被定义过，那么这条语句将啥都不做
 * ``+=`` 追加变量
 * ``@`` 放在命令前，这个命令本身就不被make显示出来
 
-## 6. 流程控制
+## 7. 流程控制
 
-### 6.1 总体框架
+### 7.1 总体框架
 ```
 target ... : prerequisites ...
     command
@@ -42,7 +42,7 @@ target ... : prerequisites ...
 * command
 该target要执行的命令（任意的shell命令）
 
-### 6.2 条件判断
+### 7.2 条件判断
 ``` 
 libs_for_gcc = -lgnu
 normal_libs =
@@ -57,10 +57,10 @@ foo: $(objects)
     $(CC) -o foo $(objects) $(libs)
 ```
 
-## 7. 模块
+## 8. 模块
 ```
 include foo.make *.mk $(bar)
 ```
 
-## 8. 黑魔法
+## 10. 黑魔法
 * ``-`` 让make 不理会报错

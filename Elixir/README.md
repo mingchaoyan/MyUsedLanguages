@@ -1,6 +1,6 @@
 # Elixir
 
-## hello, world
+## 1. hello, world
 ```
 parent = self()
 

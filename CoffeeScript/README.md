@@ -1,23 +1,23 @@
 # CoffeeScript
 
-## hello,world
+## 1. hello,world
 ```coffeescript
 console.log "Hello World"
 ```
-## 历史
+## 2. 历史
 * 发行 2009
 * 作者 Jeremy Ashkenas
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CoffeeScript/CoffeeScript-Jeremy-Ashkenas-2009.jpg)
 * 设计初衷 使JavaSCript更间接,可读性更强
 
-## 编程范型 (同JavaScript）
+## 3. 编程范型 (同JavaScript）
 
 
-## 语言特性 (同JavaScript)
+## 4. 语言特性 (同JavaScript)
 
-## 数据类型 (同JavaScript)
+## 5. 数据类型 (同JavaScript)
 
-##### 基本类型（primitive types, typeof结果）
+### 5.1 基本类型（primitive types, typeof结果）
 1. 布尔
 2. undefined
 3. 数字
@@ -25,11 +25,11 @@ console.log "Hello World"
 5. 对象(包括null)
 6. 函数
 
-##### 复合类型
+### 5.2 复合类型
 7. 数组
 * 从0开始
 
-## 操作符/关键字
+## 6. 操作符/关键字
 
 * is
 * isnt
@@ -50,9 +50,9 @@ console.log "Hello World"
 * \#{...} 字符串替换
 * do 用来直接调用跟在后边的函数, 并且传递需要的参数.
 
-## 流程控制
+## 7. 流程控制
 
-###分支
+### 7.1 分支
 
 * if/else/then
 
@@ -89,7 +89,8 @@ switch day
   when "Sun" then go church
   else go work
 ```
-### 循环
+
+### 7.2 循环
 
 * 数组
 
@@ -124,7 +125,7 @@ lyrics = while num -= 1
 ```
 1. until关键字等同于while not, loop关键字 等同于while true
 
-### 异常
+### 7.3 异常
 
 ```coffeescript
 try
@@ -136,29 +137,29 @@ finally
   cleanUp()
 ```
 
-## 7 函数/模块
+## 8 函数/模块
 
-### 7.1 函数
+### 8.1 函数
 ```coffeescript
 square = (x) -> x * x
 cube   = (x) -> square(x) * x
 ```
 1. 支持默认参数
 
-### 7.2 模块化
+### 8.2 模块化
 
-#### 导出
+#### 8.2.1 导出
 
 ```coffeescript
 module.exports = xxx
 ```
 
-#### 导入
+#### 8.2.2 导入
 ```coffeescript
 require(some_module)
 ```
 
-#### 加载顺序
+#### 8.2.3 加载顺序
 1. some_module 是核心模块，直接加载, 结束
 2. some_module 以 . ./ ../ 开头按路径加载, 结束
 3. 按路径加载 current_dir/node_modules/some_module
@@ -166,7 +167,8 @@ require(some_module)
 3.2. 加载失败，令current_dir为父目录；
 3.3. 重复这一过程，知道遇到根目录，抛出异常，结束。
 
-## 8. 库相关
+## 9. 库相关
 同JavaScript部分
 
-## 9. 黑魔法
+## 10. 黑魔法
+

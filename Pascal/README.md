@@ -1,13 +1,13 @@
 # Pascal
 
-## 0. hello, world
+## 1. hello, world
 ```pascal
 begin
   writeln('hello, world');
 end.
 ```
 
-## 1. 历史 
+## 2. 历史 
 * 发行 1970
 * 作者 Niklaus E. Wirth
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/Pascal/Pscal_Niklaus_Wirth.jpg)

@@ -1,77 +1,63 @@
 # Ruby
 
-## hello, world
-* REPL
-```ruby
-$ irb
-irb(main):001:0> puts "hello, world"
-hello, world
-=> nil
-irb(main):002:0> exit
-```
+## 1. hello, world
 
-* File
+### REPL
+    ```ruby
+    $ irb
+    irb(main):001:0> puts "hello, world"
+    hello, world
+    => nil
+    irb(main):002:0> exit
+    ```
+
+### File
 helle.rb
-```ruby
-#!/usr/bin/env ruby
-puts "Hello, world!"
-```
-```shell
-ruby hello.rb
-```
-## 历史
+    ```ruby
+    #!/usr/bin/env ruby
+    puts "Hello, world!"
+    ```
+    ```shell
+    ruby hello.rb
+    ```
+
+## 2. 历史
+
 * 发行 1995
 * 作者 Yukihiro Matsumoto(日本)
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/Ruby/Yukihiro_Matsumoto.JPG)
 * 设计初衷 减少编程时候的不必要的琐碎时间，令编写程序的人高兴
 
-## 编程范型
+## 3. 编程范型
+
 * 面向对象
 * 指令式
 * 函数式
 * 反射
 
-## 数据类型
+## 5. 数据类型
 * 动态弱类型
 * 只有对象，没有基础类型
 
-### 数组
+### 5.1 数组
 * 下标从0开始
 * 可以使用-1，表示倒数第1个
 
-### 散列表
+### 5.2 散列表
 * key-value
 
-## 面向对象
-```ruby
-class Mammal
-  def breathe
-    puts "inhale and exhale"
-  end
-end
-
-class Cat < Mammal
-  def speak
-    puts "Meow"
-  end
-end
-
-paris = Cat.new
-paris.breathe
-paris.speak
-```
-## 流程控制
-### 分支
+## 7. 流程控制
+### 7.1 分支
 * 除了nil和false，其他值都代表true
 * 逻辑运算符(短路版本 && and || or; 非短路版本 & |)
 
-#### 单行形式
+#### 7.1.1 单行形式
 ```ruby
 puts "hello, world" if x == 42
 puts "hello, world" unless x == 42
 ```
 
-#### 块形式
+#### 7.1.2 块形式
 ```ruby
 kind =
   case year
@@ -91,14 +77,14 @@ result =
     calc_something_else
   end
 ```
-### 循环
-#### 单行形式
+### 7.2 循环
+#### 7.2.1 单行形式
 ```ruby
 x = x + 1 while x < 10
 
 x = x - 1 untils x == 1
 ```
-#### 块形式
+#### 7.2.2 块形式
 ```ruby
 while x < 10
   x = x + 1
@@ -106,10 +92,32 @@ while x < 10
 end
 ```
 
-## 函数
+## 8. 函数
+
 ### 示例
+
 1. 支持默认参数
 
-## 模块
+### 面向对象
+```ruby
+class Mammal
+  def breathe
+    puts "inhale and exhale"
+  end
+end
+
+class Cat < Mammal
+  def speak
+    puts "Meow"
+  end
+end
+
+paris = Cat.new
+paris.breathe
+paris.speak
+```
+## 9. 库相关
+
 ### 包管理器
+
 Gem

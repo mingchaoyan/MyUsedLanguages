@@ -1,14 +1,14 @@
 # Python
 
-## 0. "hello, world"
+## 1. "hello, world"
 
-### 0.1 Python interpreter
+### 1.1 Python interpreter
 ```python
 >>> print("hello, world")
 hello, world
 ```
 
-### 0.2 File hello.py
+### 1.2 File hello.py
 ```python
 print("hello, world")
 ```
@@ -17,7 +17,7 @@ python hello.py
 hello, world
 ```
 
-## 1. 历史
+## 2. 历史
 * 发行 1991
 * 作者 Guido van  Rossum(吉多 范罗苏姆 荷兰)
 * ![](Guido_van_Rossum_OSCON_2006.jpg)
@@ -32,34 +32,34 @@ hello, world
         - 适用短期开发
 
 
-## 2. 编程范型
+## 3. 编程范型
 * 面向对象
 * 指令式
 * 函数式
 
-## 3. 语言特性
+## 4. 语言特性
 * 明确 
 
-## 4. 数据类型
+## 5. 数据类型
 * 动态强类型
 
-## 5. 操作符／表达式
+## 6. 操作符／表达式
 
-## 6. 流程控制
+## 7. 流程控制
 
-### 6.1 分支
+### 7.1 分支
 
-#### 6.1.1 if-else
+#### 7.1.1 if-else
 
-#### 6.1.2 else-if
+#### 7.1.2 else-if
 
-#### 6.1.3 switch
+#### 7.1.3 switch
 
-### 6.2 循环
+### 7.2 循环
 
-## 7. 函数／模块
+## 8. 函数／模块
 
-## 8. 库相关
+## 9. 库相关
 
-## 9. 黑魔法
+## 10. 黑魔法
 

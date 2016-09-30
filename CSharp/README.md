@@ -1,6 +1,6 @@
 # C♯
 
-## 0. hello, world
+## 1. hello, world
 Hello.cs
 ```cs
 public class Hello
@@ -17,14 +17,14 @@ $ mcs Hello.cs
 $ mono Hello.exe
 hello, world
 ```
-## 1. 历史
+## 2. 历史
 * 发行:2000
 * 作者:安德斯·海尔斯伯格
 * ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Anders_Hejlsberg.jpg)
 * 设计初衷 微软为了对抗Java
 * Unity 5.x 使用Mono2.6 相当于.NET 4 （C# 4.0）
 
-## 2. 编程范型
+## 3. 编程范型
 * 指令式
 * 面向对象
 * 事件驱动
@@ -32,33 +32,33 @@ hello, world
 * 范型
 * 元编程
 
-## 3. 语言特性
+## 4. 语言特性
 * 简单
 * 现代
 * 通用
 
-## 4. 数据类型
+## 5. 数据类型
 * 强类型 
 * 静态/动态类型
 
-### 4.1  值类型
-#### 4.1.1  数值
+### 5.1  值类型
+#### 5.1.1  数值
 
-##### 4.1.1.1 整数
+##### 5.1.1.1 整数
 * sbyte / byte  1
 * short / ushort    2
 * int / uint    4
 * long / ulong  8
 
-##### 4.1.1.2 浮点数
+##### 5.1.1.2 浮点数
 * float 4
 * double 8
 
-#### 4.1.2 字符
+#### 5.1.2 字符
 * char 2
 
-#### 4.1.3 布尔
-#### 4.1.4  枚举
+#### 5.1.3 布尔
+#### 5.1.4  枚举
 ```
 enum Color {
     Red,
@@ -66,14 +66,14 @@ enum Color {
     Blue
 }
 ```
-#### 4.1.6 结构
+#### 5.1.6 结构
 * 和C++最大的不同是C#中结构体是值类型
 
-### 4.2 引用类型
+### 5.2 引用类型
 
-#### 4.2.1 类
+#### 5.2.1 类
 
-##### 4.2.1.1 string 类
+##### 5.2.1.1 string 类
 * string  等价于 System.String类
 * string 虽然是引用类型，但是拥有``值语义`` 
 * string 只读
@@ -86,9 +86,9 @@ string c = a;
 a = "ting";
 System.Console.WriteLine(c); // "mingchao"
 ````
-#### 4.2.2 接口
+#### 5.2.2 接口
 * 无字段
-#### 4.2.3 数组
+#### 5.2.3 数组
 * 数组以0开始
 ```
 int[] array1 = new int[5];
@@ -99,10 +99,10 @@ int[][] jaggedArray = new int[6][];
 jaggedArray[0] = new int[4] {1, 2, 3, 4};
 
 ```
-#### 4.2.4 [委托](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Misc/Delegate.md)
+#### 5.2.4 [委托](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Misc/Delegate.md)
 
-## 5. 操作符／表达式
-### 5.1  ``??``  null 合并运算符
+## 6. 操作符／表达式
+### 6.1  ``??``  null 合并运算符
 ```
 using System;
 public class Test{
@@ -113,43 +113,43 @@ public class Test{
 	}
 }
 ```
-## 6. 流程控制
+## 7. 流程控制
 
-### 6.1 分支
+### 7.1 分支
 
-#### 6.1.1 if-else
+#### 7.1.1 if-else
 
-#### 6.1.2 switch
+#### 7.1.2 switch
 * C# 不允许Fall Through
 
-### 6.2 循环
+### 7.2 循环
 
-#### 6.2.1 while / do while
+#### 7.2.1 while / do while
 
-#### 6.2.2 for / foreach in
+#### 7.2.2 for / foreach in
 
-#### 6.2.3 yield
+#### 7.2.3 yield
 * [IEnumerator/IEnumerable](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Misc/IEnumerator_And_IEnumerable.md)
 * [yield](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CSharp/Misc/Yield.md)
 
-## 7. 函数／模块
+## 8. 函数／模块
 
-### 7.1 命名空间
+### 8.1 命名空间
 * 使用 ``.`` 运算符分隔(嵌套)
 * 使用 using xxx 指令可以在后面代码中省略类的命名空间
 * 运算符 :: 用于命名空间使用了别名的情况
 * global 命名空间是“根”命名空间, global::System 引用 System
 * C# 没有头文件，代码分不分多个文件完全是为了编辑的方便，反正编译器都是一次读进合并起来编译成二进制文件，然后类和函数的签名都在metadata里面
 
-### 7.2 预处理指令
+### 8.2 预处理指令
 * 折叠代码
 ```cs
     #region
     #endregion
 ```
-## 8. 库相关
+## 9. 库相关
 
-## 9. 黑科技
+## 10. 黑科技
 1. 分部类 partial 可把一个类分开实现
 ```
 * 所有分部都需要指定partial
