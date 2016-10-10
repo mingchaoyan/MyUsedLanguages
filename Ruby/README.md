@@ -43,14 +43,28 @@ helle.rb
 
 ### 5.2 文本
 
-### 5.1 数组
+#### 5.2.1 单引号
+
+#### 5.2.2 双引号
+
+### 5.3 数组
 * 下标从0开始
 * 可以使用-1，表示倒数第1个
 
-### 5.2 散列表
+### 5.4 散列表
 * key-value
 
+    grades = { "Jane Doe" => 10, "Jim Doe" => 6 }
+
+    options = { :font_size => 10, :font_family => "Arial" }
+
+    options = { :font_size: 10, :font_family: "Arial" }
+
+    numbers = Hash.new
+    numbers["one"] = 1
+
 ## 7. 流程控制
+
 ### 7.1 分支
 * 除了nil和false，其他值都代表true
 * 逻辑运算符(短路版本 && and || or; 非短路版本 & |)
