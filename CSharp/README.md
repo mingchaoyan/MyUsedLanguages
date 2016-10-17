@@ -179,8 +179,12 @@ Object的别名
 ```
 8. [ref out](Misc/Out.md)
 
-9. params 未定个数参数
+9. params 未定个数参数(可变参数)
 
 10. sealed
 * override方法前使用：禁止派生类重写
 * 类声明中使用：禁止派生
+
+11. readonly vs const
+readonly 在运行时(构造函数中)初始化，
+const 在编译时初始化
