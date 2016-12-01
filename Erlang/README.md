@@ -1,11 +1,55 @@
 # Erlang
 
-## 1. hello, world
-```erlang
+## 1. "hello, world"
+### Erlang shell
+
+```shell
+$ erl
+Erlang/OTP 19 [erts-8.1] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Eshell V8.1  (abort with ^G)
+1> io:format("hello, world\n").
+hello, world
+ok
+2> q().
+ok
+3> $
+```
+
+### Script
+* 编辑 {:&.moveIn}
+```erlang 
+#! /usr/bin/env escript
+main(_) ->
+    io:format("hello, world\n").
+```
+* 解释运行
+```shell
+$ chmod +x hello.erl
+$ ./hello.erl
+hello, world
+```
+
+### Compile
+* 编辑 
+```erlang 
 -module(hello).
 -export([hello_world/0]).
 hello_world() ->
-    io:fwrite("hello, world\n")
+    io:fwrite("hello, world\n").
+```
+
+* 编译产生beam文件
+```shell
+$ erlc hello.erl 
+$ ls 
+$ hello.beam
+```
+* 运行erl 载入beam文件
+```shell
+$ erl
+> hello:hello_world().
+> hello, world
 ```
 
 ## 2. 历史
