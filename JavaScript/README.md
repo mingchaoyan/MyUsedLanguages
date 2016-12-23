@@ -22,7 +22,7 @@ console.log("Hello World");
 ## 2. 历史
 * 发行 1995
 * 作者 Brendan Eich
-* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/JavaScript/Brendan_Eich-JavaScript-1995.jpg)
+* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/JavaScript/Brendan_Eich-JavaScript-1995.jpg){: width="50%" }
 * 设计初衷 给HTML网页增加动态功能
 
 ## 3. 编程范型
