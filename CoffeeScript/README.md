@@ -7,7 +7,7 @@ console.log "Hello World"
 ## 2. 历史
 * 发行 2009
 * 作者 Jeremy Ashkenas
-* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/CoffeeScript/CoffeeScript-Jeremy-Ashkenas-2009.jpg)
+* <img src="CoffeeScript-Jeremy-Ashkenas-2009.jpg" width="50%" height="50%">
 * 设计初衷 使JavaSCript更间接,可读性更强
 
 ## 3. 编程范型 (同JavaScript）

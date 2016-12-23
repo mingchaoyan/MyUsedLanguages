@@ -55,7 +55,7 @@ $ erl
 ## 2. 历史
 * 发行：1986
 * 作者：乔·阿姆斯特朗（瑞典），罗伯·维丁（瑞典），麦可·威廉（瑞典）
-* ![](https://github.com/mingchaoyan/MyUsedLanguages/blob/master/Erlang/Erlang-1987.jpg)
+* <img src="Erlang-1987.jpg" width="50%" height="50%">
 * 设计初衷：电信设备制造商爱立信私有软件，创造一种可以应付大规模并发活动的程序设计语言和运行环境
 
 ## 3. 编程范型
