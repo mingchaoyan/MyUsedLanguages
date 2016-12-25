@@ -29,11 +29,11 @@
 * 编辑
     
     print("Hello, World")
-
+    
 * 解释运行
     
     lua hello.lua
-
+    
 
 ## 2. 历史
 * 发行 1993
