@@ -3,13 +3,15 @@
 ## 1. "hello, world"
 
 ### 1.1 Lua interpreter
-    
+
+    ```shell
     $ lua
     Lua 5.3.3  Copyright (C) 1994-2016 Lua.org, PUC-Rio
     > print("Hello, World")
     Hello World
     > os.exit()
     $
+    ```
 
 ### 1.2 Script
 * 编辑
@@ -21,18 +23,24 @@
 
 * 解释运行
     
+    ```shell
     $ chmod +x hello.lua
     $ ./hello.lua
     Hello, World
+    ```
 
 ### 1.3 File hello.lua
 * 编辑
     
+    ```lua
     print("Hello, World")
+    ```
     
 * 解释运行
     
+    ```shell
     lua hello.lua
+    ```
     
 
 ## 2. 历史
