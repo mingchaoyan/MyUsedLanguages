@@ -1,18 +1,37 @@
 # Lua
 
 ## 1. "hello, world"
-* Lua interpreter
-```
-> print("Hello, World")
-```
 
-* File hello.lua
-```
-print("Hello, World")
-```
-```shell
-lua hello.lua
-```
+### 1.1 Lua interpreter
+    
+    $ lua
+    Lua 5.3.3  Copyright (C) 1994-2016 Lua.org, PUC-Rio
+    > print("Hello, World")
+    Hello World
+    > os.exit()
+    $
+
+### 1.2 Script
+* 编辑
+
+    #! /usr/bin/env lua
+    print("Hello, World")
+
+* 解释运行
+
+    $ chmod +x hello.lua
+    $ ./hello.lua
+    Hello, World
+
+### 1.3 File hello.lua
+* 编辑
+
+    print("Hello, World")
+
+* 解释运行
+
+    lua hello.lua
+
 
 ## 2. 历史
 * 发行 1993

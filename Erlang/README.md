@@ -1,43 +1,40 @@
 # Erlang
 
 ## 1. "hello, world"
-### Erlang shell
 
-```shell
-$ erl
-Erlang/OTP 19 [erts-8.1] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+### 1.1 Erlang shell
 
-Eshell V8.1  (abort with ^G)
-1> io:format("hello, world\n").
-hello, world
-ok
-2> q().
-ok
-3> $
-```
+    $ erl
+    Erlang/OTP 19 [erts-8.1] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
 
-### Script
-* 编辑 {:&.moveIn}
-```erlang 
-#! /usr/bin/env escript
-main(_) ->
-    io:format("hello, world\n").
-```
-* 解释运行
-```shell
-$ chmod +x hello.erl
-$ ./hello.erl
-hello, world
-```
+    Eshell V8.1  (abort with ^G)
+    1> io:format("hello, world\n").
+    hello, world
+    ok
+    2> q().
+    ok
+    3> $
 
-### Compile
+### 1.2 Script
 * 编辑 
-```erlang 
--module(hello).
--export([hello_world/0]).
-hello_world() ->
-    io:fwrite("hello, world\n").
-```
+
+    #! /usr/bin/env escript
+    main(_) ->
+        io:format("hello, world\n").
+
+* 解释运行
+
+    $ chmod +x hello.erl
+    $ ./hello.erl
+    hello, world
+
+### 1.3 Compile
+* 编辑 
+
+    -module(hello).
+    -export([hello_world/0]).
+    hello_world() ->
+        io:fwrite("hello, world\n").
 
 * 编译产生beam文件
 ```shell

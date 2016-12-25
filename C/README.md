@@ -1,13 +1,12 @@
 # C
 
 ## 1. "hello, world"
-  ```c
-  #include <stdio.h>
-  main() 
-  {
+
+    #include <stdio.h>
+    main() 
+    {
       printf("hello, world\n");
-  }
-  ```
+    }
 
 ## 2. 历史
 * 发行 1972
