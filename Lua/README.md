@@ -14,8 +14,10 @@
 ### 1.2 Script
 * 编辑
 
+    ```lua
     #! /usr/bin/env lua
     print("Hello, World")
+    ```
 
 * 解释运行
 
