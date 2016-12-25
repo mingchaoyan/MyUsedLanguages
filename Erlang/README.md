@@ -18,36 +18,44 @@
 ### 1.2 Script
 * 编辑 
 
+    ```erlang
     #! /usr/bin/env escript
     main(_) ->
         io:format("hello, world\n").
+    ```
 
 * 解释运行
 
+    ```shell
     $ chmod +x hello.erl
     $ ./hello.erl
     hello, world
+    ```
 
 ### 1.3 Compile
 * 编辑 
 
+    ```erlang
     -module(hello).
     -export([hello_world/0]).
     hello_world() ->
         io:fwrite("hello, world\n").
+    ```
 
 * 编译产生beam文件
-```shell
-$ erlc hello.erl 
-$ ls 
-$ hello.beam
-```
+
+    ```shell
+    $ erlc hello.erl 
+    $ ls 
+    $ hello.beam
+    ```
 * 运行erl 载入beam文件
-```shell
-$ erl
-> hello:hello_world().
-> hello, world
-```
+
+    ```shell
+    $ erl
+    > hello:hello_world().
+    > hello, world
+    ```
 
 ## 2. 历史
 * 发行：1986
