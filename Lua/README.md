@@ -21,9 +21,11 @@
 
 * 解释运行
 
+    ```shell
     $ chmod +x hello.lua
     $ ./hello.lua
     Hello, World
+    ```
 
 ### 1.3 File hello.lua
 * 编辑
