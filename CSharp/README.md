@@ -190,44 +190,5 @@ Object的别名
 readonly 在运行时(构造函数中)初始化，
 const 在编译时初始化
 
-12. echo
+12. [echo 服务](Misc/echo.md)
 
-```
-using System;
-using System.Net;
-using System.Net.Sockets;
-
-namespace ConsoleApplication
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            // Socket
-            Socket listenfd = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            // Bind
-            IPAddress ipAdr = IPAddress.Parse("127.0.0.1");
-            IPEndPoint ipEp = new IPEndPoint(ipAdr, 1234);
-            listenfd.Bind(ipEp);
-            //listen
-            listenfd.Listen(0);
-            Console.WriteLine("服务器启动成功");
-						// accept
-						Socket connfd = listenfd.Accept();
-						Console.WriteLine("服务器Accept");
-            while(true)
-            {
-								//Recv
-                byte[] readBuff = new byte[1024];
-                int count = connfd.Receive(readBuff);
-                string str = System.Text.Encoding.UTF8.GetString(readBuff, 0, count);
-                Console.WriteLine("服务器接收" + str);
-                //Send
-                byte[] bytes = System.Text.Encoding.UTF8.GetBytes("serv echo " + str);
-                connfd.Send(bytes);
-            }
-        }
-    }
-}
-```
