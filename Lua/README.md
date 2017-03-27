@@ -109,19 +109,53 @@
 
 #### 7.1.1 if-else
 ```
-if xxx then
-    xxx
-elseif xxx then
-    xxx
+if op == "+" then
+  r = a + b
+elseif op == "-" then
+  r = a - b
+elseif op == "*" then
+  r = a*b
+elseif op == "/" then
+  r = a/b
 else
-    xxx
+  error("invalid operation")
 end
 ```
 
 ### 7.2 循环
+
 #### 7.2.1 while
+```
+local i = 1
+while a[i] do
+  print(a[i])
+  i = i + 1
+end
+```
 #### 7.2.2 repeat 
+```
+local line
+repeat
+  line = io.read()
+until line ~= ""
+print(line)
+```
+
 #### 7.2.3 for
+
+##### 7.2.3.1 numerical for
+```
+for var = exp1, exp2, exp3 do
+  <something>
+end
+```
+
+##### 7.2.3.2 generic for
+```
+for <var-list> in <exp-list> do
+  <body>
+end
+```
 
 ## 8. 函数／模块
 ### 8.1 require 的加载过程
