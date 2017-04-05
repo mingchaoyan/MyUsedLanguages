@@ -72,6 +72,74 @@
 ### 5.7 表 table
 * 数组以1开始
 * a.field 是 a['field'] 的语法糖
+
+#### 5.7.1 构造
+```
+a = {}
+
+-- list-style
+days = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"} 
+
+-- record-style
+a = {x = 10, y = 20}
+
+-- mix-style
+polyline = {
+    clolor = "blue",
+    thickness = 2,
+    npoints = 4,
+    {x = 0, y = 0},
+    {x = -10, y = 0},
+    {x = -10, y = 1},
+    {x = 0, y = 1}
+}
+
+-- more-general
+opnames = {
+    ["+"] = "add", ["-"] = "sub",
+    ["*"] = "mul", ["/"] = "div"
+}
+```
+
+* 可以使用 ; 或者 ,
+* 最后可以有，也可以没有
+
+
+#### 5.7.2 下标
+```
+a[10]  和  a["10"] 不一样
+```
+
+```
+a[2] 和 a[2.0] 一样
+```
+
+#### 5.7.3 序列 
+* a list without holes
+
+#### 5.7.4 遍历
+* record: pairs 每个元素会走到，但不保证顺序
+```
+t = {10, print, x = 12, k = "hi"}
+for k, v in pairs(t) do
+    print(k, v)
+end
+```
+* list: ipair 保证顺序
+```
+t = {10, print, 12, "hi"}
+for k, v in ipairs(t) do
+    print(k, v)
+end
+```
+* sequence 
+```
+t = {10, print, 12, "hi"}
+for k = 1, #t do
+    print(k, t([k])
+end
+```
+
 ### 5.8 用户自定义 userdata
 
 ## 6. 操作符／表达式
