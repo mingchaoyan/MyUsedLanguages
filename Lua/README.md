@@ -67,6 +67,12 @@
 ### 5.2 布尔 boolean
 ### 5.3 数字 number
 ### 5.4 字符串 string
+* "  和 ‘ 都可以界定字符串
+* " 和 ' 两者唯一的区别是一种在另外一种里面可以不转义
+```
+print(''a blackslash inside quotes: \'\\\'')
+print("a simple way: '\\'")
+```
 ### 5.5 函数 function
 ### 5.6 线程 thread
 ### 5.7 表 table
