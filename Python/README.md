@@ -43,19 +43,61 @@ hello, world
 ## 5. 数据类型
 * 动态强类型
 
+### 布尔
+### 字符串
+### 数字
+### 浮点
+### 列表
+* list 0 开始
+### 字典
+### None
+
 ## 6. 操作符／表达式
 
 ## 7. 流程控制
 
 ### 7.1 分支
 
-#### 7.1.1 if-else
+#### 7.1.1 if
+```
+people = 20
+cats = 30
 
-#### 7.1.2 else-if
+if people < cats:
+    print "Too many cats! The world is doomed!"
+```
 
-#### 7.1.3 switch
+#### 7.1.2 if-else
+```
+people = 30
+cars = 40
+
+if cars > people:
+    print "We should take the cars."
+elif cars < people:
+    print "We should not take the cars."
+else:
+    print "We can't decide."
+```
 
 ### 7.2 循环
+```
+the_count = [1, 2, 3, 4, 5]
+for number in the_count:
+    print "This is count %d" % number
+```
+```
+i = 0
+numbers = []
+
+while i < 6:
+    print "At the top i is %d" % i
+    numbers.append(i)
+
+    i = i + 1
+    print "Numbers now: ", numbers
+    print "At the bottom i is %d" % i
+```
 
 ## 8. 函数／模块
 

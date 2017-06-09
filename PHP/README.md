@@ -20,6 +20,15 @@
 ## 4. 语言特性
 
 ## 5. 数据类型
+### 5.1 boolean
+### 5.2 integer
+### 5.3 float(double)
+### 5.4 string
+### 5.5 array
+### 5.6 object
+### 5.7 callable
+### 5.8 resource
+### 5.9 NULL
 
 ## 6. 操作符／表达式
 
