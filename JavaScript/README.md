@@ -45,6 +45,17 @@ console.log("Hello World");
 4. 字符串
 5. 对象(包括null)
 6. 函数
+```
+function double(x) {
+  return 2*x;
+}
+```
+```
+var double = new Function('x', 'return 2*x;');
+```
+```
+var double = function(x) {return 2*x;};
+```
 
 ### 5.2 复合类型
 7. 数组
